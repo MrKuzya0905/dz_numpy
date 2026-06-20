@@ -226,3 +226,4 @@ def load_and_validate_api_data(url, required_fields, output_file="api_data.json"
     except requests.exceptions.RequestException as e:
         print(f"Помилка API: {e}")
         return []
+    
